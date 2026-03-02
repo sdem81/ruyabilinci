@@ -115,11 +115,11 @@ async function generateAllDreams() {
       const countForCategory = dreamsPerCategory + (categoryIndex < remainder ? 1 : 0);
 
       for (let i = 0; i < countForCategory; i++) {
-        const templateIndex = i % categoryDreams.length;
+        const templateIndex = Math.floor(Math.random() * categoryDreams.length);
         const templateText = categoryDreams[templateIndex];
 
         // Create variations with numbers
-        const title = `${category.name} - ${templateText.split(':')[0].trim()} (Varyasyon ${i + 1})`;
+        const title = `Rüyada ${templateText.split(':')[0].trim()} - Varyasyon ${i + 1}`;
         const slug = `${category.slug}-ruyasi-${i + 1}`.toLowerCase().replace(/[^a-z0-9-]/g, '-');
         const content = `${title} hakkında detaylı rüya tabirleri ve anlamlar.\n\n${templateText}\n\nBu rüya, bilinçaltınızın önemli mesajlarını içerir. Rüya görme sırasında hissettiğiniz duygular ve bağlam, yorumlamada önemli rol oynar.`;
         const metaDesc = `${title.substring(0, 50)}... Rüya tabirleri ve anlamlar.`;
