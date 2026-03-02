@@ -4,7 +4,7 @@ import { getCachedPopularDreams, getCachedCategories } from "@/lib/cache";
 import DreamCard from "@/components/DreamCard";
 import StructuredData from "@/components/StructuredData";
 
-export const revalidate = 1800; // ISR: 30 minutes
+export const revalidate = 60; // ISR: 1 minute (quick update)
 
 export default async function HomePage() {
   const [popularDreams, categories] = await Promise.all([

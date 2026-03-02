@@ -12,7 +12,7 @@ import Pagination from "@/components/Pagination";
 import StructuredData from "@/components/StructuredData";
 import Link from "next/link";
 
-export const revalidate = 3600;
+export const revalidate = 300;
 
 const PER_PAGE = 30;
 
