@@ -1,0 +1,46 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Auto Start Workspace",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"Start PostgreSQL Local",
+				"Next.js Dev Server"
+			],
+			"runOptions": {
+				"runOn": "folderOpen"
+			},
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "never",
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "Start PostgreSQL Local",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-Command",
+				"$pgCtl='C:\\Program Files\\PostgreSQL\\16\\bin\\pg_ctl.exe'; $dataDir='C:\\Program Files\\PostgreSQL\\16\\data'; if (-not (Test-Path $pgCtl)) { Write-Host 'pg_ctl bulunamadi, PostgreSQL 16 kurulumu kontrol edin.'; exit 1 }; & $pgCtl status -D $dataDir *> $null; if ($LASTEXITCODE -eq 0) { Write-Host 'PostgreSQL zaten calisiyor.'; exit 0 }; & $pgCtl start -D $dataDir -w"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "never",
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "Next.js Dev Server",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

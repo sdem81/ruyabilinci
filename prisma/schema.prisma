@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Dream {
+  id              Int      @id @default(autoincrement())
+  title           String
+  slug            String   @unique
+  content         String
+  shortSummary    String?  @map("short_summary")
+  categoryId      Int      @map("category_id")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+  views           Int      @default(0)
+  isPublished     Boolean  @default(true) @map("is_published")
+  metaDescription String?  @map("meta_description")
+  wordCount       Int?     @map("word_count")
+  contentHash     String?  @map("content_hash") @db.VarChar(64)
+  category        Category @relation(fields: [categoryId], references: [id])
+
+  @@index([slug])
+  @@index([categoryId])
+  @@index([isPublished])
+  @@index([title])
+  @@index([contentHash])
+  @@map("dreams")
+}
+
+model Category {
+  id      Int     @id @default(autoincrement())
+  name    String
+  slug    String  @unique
+  seoText String? @map("seo_text")
+  dreams  Dream[]
+
+  @@index([slug])
+  @@map("categories")
+}

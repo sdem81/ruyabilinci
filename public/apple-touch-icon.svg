@@ -1,0 +1,25 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="90" cy="90" r="90" fill="#f3f4f6"/>
+  
+  <!-- Moon shape with gradient -->
+  <defs>
+    <linearGradient id="moonGradient180" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main moon shape -->
+  <path d="M50 40C35 40 25 50 25 65C25 80 35 90 50 90C65 90 75 80 75 65C75 50 65 40 50 40Z" 
+        fill="url(#moonGradient180)" />
+  
+  <!-- Crescent effect -->
+  <circle cx="70" cy="65" r="35" fill="#f3f4f6" />
+  
+  <!-- Decorative stars -->
+  <circle cx="120" cy="35" r="8" fill="#4f46e5" opacity="0.8"/>
+  <circle cx="140" cy="55" r="5" fill="#6366f1" opacity="0.6"/>
+  <circle cx="130" cy="120" r="6" fill="#4f46e5" opacity="0.7"/>
+  <circle cx="45" cy="135" r="5.5" fill="#6366f1" opacity="0.65"/>
+</svg>

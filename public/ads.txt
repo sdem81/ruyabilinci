@@ -1,0 +1,5 @@
+# Google AdSense ads.txt
+# TODO: Aşağıdaki pub-XXXXXXXXXXXXXXXX değerini AdSense hesabınızdaki
+# gerçek yayıncı kimliğinizle değiştirin.
+# AdSense → Hesap → Hesap bilgileri → Yayıncı kimliği
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,308 @@
+{
+  "timestamp": "2026-03-01T17:19:42.747Z",
+  "durationMs": 13045,
+  "totalItemsAnalyzed": 45460,
+  "wordCountDistribution": {
+    "thinContent": {
+      "count": 0,
+      "percentage": "0.00"
+    },
+    "mediumContent": {
+      "count": 42501,
+      "percentage": "93.49"
+    },
+    "richContent": {
+      "count": 2959,
+      "percentage": "6.51"
+    },
+    "statistics": {
+      "average": "505.01",
+      "min": 370,
+      "max": 759
+    }
+  },
+  "duplicationAnalysis": {
+    "totalWithBoilerplate": 216,
+    "percentage": "0.48",
+    "uniqueOpenings": 4,
+    "topRepeatedOpenings": [
+      {
+        "opening": "Rüyada bu",
+        "count": 201
+      },
+      {
+        "opening": "Rüyada görmek",
+        "count": 5
+      },
+      {
+        "opening": "Bu rüya",
+        "count": 9
+      },
+      {
+        "opening": "Rüyada gördüğün",
+        "count": 1
+      }
+    ]
+  },
+  "adSenseRisks": {
+    "itemsWithBannedTerms": 36,
+    "percentage": "0.08",
+    "byCategory": {
+      "suç": 36
+    },
+    "affectedItems": [
+      {
+        "id": 1986,
+        "title": "Rüyada Adam Öldürmekle Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 2796,
+        "title": "Rüyada Aldatmakla Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 3205,
+        "title": "Rüyada Altın Çalmakla Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 7593,
+        "title": "Rüyada Aşırı Korkmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 8219,
+        "title": "Rüyada Banyo Yaparken Utanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 11654,
+        "title": "Rüyada Cinayetle Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 15541,
+        "title": "Rüyada Eskiyi Özlemek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 16168,
+        "title": "Rüyada Evini Özlemek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 18815,
+        "title": "Rüyada Hainlikle Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 20230,
+        "title": "Rüyada Hırsızlık Yapmakla Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 23995,
+        "title": "Rüyada Kederlenmek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 25052,
+        "title": "Rüyada Korkmak Titremek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 25061,
+        "title": "Rüyada Korkulu Rüya Görmek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 25321,
+        "title": "Rüyada Kul Hakkından Korkmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 25951,
+        "title": "Rüyada Kuzu Ağlaması",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 31190,
+        "title": "Rüyada Para Çalmak Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 32850,
+        "title": "Rüyada Rüzgardan Korkmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 34470,
+        "title": "Rüyada Sevinçli Haber Almak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 34472,
+        "title": "Rüyada Sevinçli Olmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 35683,
+        "title": "Rüyada Suçlu Duruma Düşmek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 35684,
+        "title": "Rüyada Suçlu Olarak Aranmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 35685,
+        "title": "Rüyada Suçlu Yakalamak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 35686,
+        "title": "Rüyada Suçluya Kelepçe Takmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 35687,
+        "title": "Rüyada Suçu Üstüne Atmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 35688,
+        "title": "Rüyada Suçun Üzerine Kalması",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 38713,
+        "title": "Rüyada Utanmak Görmek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 38734,
+        "title": "Rüyada Uykuda Korkmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 39100,
+        "title": "Rüyada Uçağa Binip Korkmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 39505,
+        "title": "Rüyada Korku Tabirleri",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 39762,
+        "title": "Rüyada Yalan Söylemekle Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 39766,
+        "title": "Rüyada Yalan Yere Suçlanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 39968,
+        "title": "Rüyada Yaptığından Utanmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 43714,
+        "title": "Rüyada Öfke Görmek",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 43719,
+        "title": "Rüyada Öfkesini Yutmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 43720,
+        "title": "Rüyada Öfkeyle Bağırmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      },
+      {
+        "id": 44659,
+        "title": "Rüyada Üzüntüden Bağırmak",
+        "bannedTermsFound": [
+          "suç"
+        ]
+      }
+    ]
+  }
+}
