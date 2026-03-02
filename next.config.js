@@ -9,7 +9,7 @@ const nextConfig = {
   // Enable compression
   compress: true,
   experimental: {
-    optimizePackageImports: ["jose", "@prisma/client"],
+    optimizePackageImports: ["jose"],
   },
   images: {
     domains: [],
